@@ -3,7 +3,7 @@ import { config } from '../config.js';
 
 const app = express();
 app.get('/', (req, res) => {
-  res.send(JSON.stringify(config));
+  res.send(JSON.stringify(config, null, 2));
 })
 
 app.listen(config.port, () => {
