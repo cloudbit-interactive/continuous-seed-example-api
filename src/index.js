@@ -7,7 +7,7 @@ app.get('/ping', (req, res) => {
 })
 
 app.get('/test', (req, res) => {
-  res.send('test api response');
+  res.send(JSON.stringify({message:'Test api response'}, null, 2));
 })
 
 
