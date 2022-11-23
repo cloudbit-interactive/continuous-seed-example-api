@@ -6,7 +6,7 @@ app.get('/ping', (req, res) => {
   res.send('pong');
 })
 
-pp.get('/test', (req, res) => {
+app.get('/test', (req, res) => {
   res.send('test api');
 })
 
