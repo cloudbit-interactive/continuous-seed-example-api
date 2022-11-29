@@ -3,7 +3,7 @@ import { config } from '../config.js';
 
 const app = express();
 app.get('/ping', (req, res) => {
-  res.send('pong33333');
+  res.send('pong');
 })
 
 app.get('/test', (req, res) => {
